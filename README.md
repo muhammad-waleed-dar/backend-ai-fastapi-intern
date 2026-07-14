@@ -1,4 +1,4 @@
-# Backend AI FastAPI Intern
+# Backend AI FastAPI
 
 Weekly backend engineering assignments — FastAPI, in progress.
 
