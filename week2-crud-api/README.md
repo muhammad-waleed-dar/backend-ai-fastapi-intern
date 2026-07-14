@@ -1,8 +1,4 @@
-# Backend AI FastAPI Intern
-
-## Week 1: First Endpoint
-A minimal FastAPI server with two GET endpoints (`/` and `/health`).
-See [`week1-first-endpoint/`](./week1-first-endpoint/main.py)
+# Backend AI FastAPI
 
 ## Week 2: CRUD Task API
 A FastAPI backend managing a to-do list in memory — full Create, Read, Update, Delete.
