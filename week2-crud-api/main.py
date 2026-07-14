@@ -6,7 +6,7 @@ app = FastAPI()
 
 # ---------- Root & Health (Stage 1) ----------
 
-@app.get("/")
+@app.get("/", summary="API info", description="Returns basic info about this API")
 def read_root():
     return {
         "name": "Task API",
@@ -14,7 +14,7 @@ def read_root():
         "endpoints": ["/tasks"]
     }
 
-@app.get("/health")
+@app.get("/health", summary="Health check", description="Confirms the server is running")
 def health_check():
     return {"status": "ok"}
 
@@ -30,11 +30,11 @@ next_id = 4  # tracks the next free id
 
 # ---------- Read endpoints (Stage 2) ----------
 
-@app.get("/tasks")
+@app.get("/tasks", summary="List all tasks", description="Returns every task currently stored")
 def get_tasks():
     return tasks
 
-@app.get("/tasks/{task_id}")
+@app.get("/tasks/{task_id}", summary="Get one task", description="Returns a single task by id, or 404 if not found")
 def get_task(task_id: int):
     for task in tasks:
         if task["id"] == task_id:
