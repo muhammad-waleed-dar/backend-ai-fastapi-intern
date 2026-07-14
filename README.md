@@ -1,7 +1,5 @@
 # Backend AI FastAPI Intern
 
-FlyRank Backend AI Engineering Internship — assignment submissions.
-
 ## Week 1: First Endpoint
 A minimal FastAPI server with two GET endpoints (`/` and `/health`).
 See [`week1-first-endpoint/`](./week1-first-endpoint/main.py)
