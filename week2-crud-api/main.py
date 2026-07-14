@@ -63,7 +63,7 @@ class TaskUpdate(BaseModel):
     title: Optional[str] = None
     done: Optional[bool] = None
 
-@app.put("/tasks/{task_id}")
+@app.put("/tasks/{task_id}", summary="Update a task", description="Updates title and/or done status; 404 if not found")
 def update_task(task_id: int, update: TaskUpdate):
     for task in tasks:
         if task["id"] == task_id:
