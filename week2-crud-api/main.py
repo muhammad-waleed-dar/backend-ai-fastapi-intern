@@ -46,7 +46,7 @@ def get_task(task_id: int):
 class TaskCreate(BaseModel):
     title: Optional[str] = None
 
-@app.post("/tasks", status_code=201)
+@app.post("/tasks", status_code=201, summary="Create a task", description="Creates a new task; title is required")
 def create_task(task: TaskCreate):
     global next_id
     if not task.title or not task.title.strip():
