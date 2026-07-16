@@ -1,6 +1,6 @@
 # Backend AI FastAPI
 
-Weekly backend engineering assignments — FastAPI, in progress...
+Weekly backend engineering assignments — FastAPI, in progress... 
 
 ## Weeks
 
