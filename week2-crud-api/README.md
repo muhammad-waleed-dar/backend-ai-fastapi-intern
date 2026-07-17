@@ -1,7 +1,7 @@
 # Backend AI FastAPI 
 
 ## Week 2: CRUD Task API
-A FastAPI backend managing a to-do list in memory — full Create, Read, Update, Delete.
+A FastAPI backend managing a to-do list in memory — full Create, Read, Update, Delete. 
 
 ### How to run
 ```bash
