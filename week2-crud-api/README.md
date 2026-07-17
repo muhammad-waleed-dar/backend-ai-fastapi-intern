@@ -11,7 +11,7 @@ source venv/bin/activate
 pip install fastapi uvicorn
 uvicorn main:app --reload
 ```
-Then visit `http://127.0.0.1:8000/docs`
+Then visit `http://127.0.0.1:8000/docs` 
 
 ### Endpoints 
 
