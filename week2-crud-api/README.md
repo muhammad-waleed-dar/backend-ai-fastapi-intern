@@ -13,7 +13,7 @@ uvicorn main:app --reload
 ```
 Then visit `http://127.0.0.1:8000/docs`
 
-### Endpoints
+### Endpoints 
 
 | Method | Path | Description |
 |--------|------|-------------|
