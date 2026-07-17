@@ -3,7 +3,7 @@
 ## Week 2: CRUD Task API
 A FastAPI backend managing a to-do list in memory — full Create, Read, Update, Delete. 
 
-### How to run
+### How to run 
 ```bash
 cd week2-crud-api
 python3 -m venv venv
